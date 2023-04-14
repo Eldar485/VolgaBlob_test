@@ -1,0 +1,43 @@
+.comment {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px #82c246;
+    margin-top: 10rem;
+
+    &__name {
+        font-size: 1.5rem;
+        font-weight: 700;
+        position: relative;
+        margin: 2rem 0 3rem 4rem;
+        color: #82c246;
+
+        &:before {
+            background-image: url('../../assets/icons/user.svg');
+            background-size: contain;
+            top: -0.8rem;
+            left: -4rem;
+            position: absolute;
+            content: '';
+            border: 3px solid black;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    &__body {
+        margin-bottom: 2rem;
+        font-size: 1.3rem;
+    }
+
+    &__email {
+        text-align: right;
+        color: #82c246;
+
+        span {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-right: 1rem;
+        }
+    }
+}

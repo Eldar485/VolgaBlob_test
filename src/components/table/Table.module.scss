@@ -1,0 +1,40 @@
+.table {
+    border-collapse: separate;
+    width: 100%;
+    border-spacing: 3px;
+    display: block;
+
+    thead, td {
+        vertical-align: center;
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    td {
+        background-color: #def2c9;
+
+        &:first-child {
+            color: #ffffff;
+            background: #82c246;
+        }
+    }
+
+    tr {
+        cursor: pointer;
+        transition: all 0.5s;
+
+        &:hover {
+            box-shadow: 5px 5px 10px #82c246;
+        }
+    }
+
+    thead {
+        font-weight: 700;
+
+        td {
+            color: #ffffff;
+            background: #82c246;
+        }
+
+    }
+}

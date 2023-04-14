@@ -1,0 +1,25 @@
+.comments {
+    margin-bottom: 5rem;
+
+    &__btns {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+    &__results {
+        overflow-x: auto;
+    }
+
+    &__table {}
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.content {
+    min-width: 800px;
+}

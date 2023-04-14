@@ -1,0 +1,25 @@
+.pages {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+    & > * {
+        cursor: pointer;
+        border: 1px solid black;
+        min-width: 1.8rem;
+        text-align: center;
+        min-height: 1.5rem;
+        border-radius: 5px;
+        background-color: #82c246;
+        padding: 0.3rem;
+        margin: 0 5px;
+        color: #ffffff;
+    }
+
+    &__page {}
+
+    &__current {
+        background-color: #56c246;
+    }
+}

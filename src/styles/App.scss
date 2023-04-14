@@ -1,0 +1,23 @@
+@import "Reset.css";
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 50%;
+    overflow: hidden;
+
+    @media (max-width: 1300px) {
+        width: 60%;
+    }
+
+    @media (max-width: 1000px) {
+        width: 70%;
+    }
+
+    @media (max-width: 700px) {
+        width: 95%;
+    }
+}
