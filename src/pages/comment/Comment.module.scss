@@ -2,7 +2,7 @@
     border-radius: 10px;
     padding: 20px;
     box-shadow: 1px 1px 10px #82c246;
-    margin-top: 10rem;
+    margin: 10rem 1rem 1rem;
 
     &__name {
         font-size: 1.5rem;
@@ -40,4 +40,10 @@
             margin-right: 1rem;
         }
     }
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }

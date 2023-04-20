@@ -20,7 +20,6 @@
     }
 
     tr {
-        cursor: pointer;
         transition: all 0.5s;
 
         &:hover {
@@ -36,5 +35,13 @@
             background: #82c246;
         }
 
+    }
+
+    &__link {
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }

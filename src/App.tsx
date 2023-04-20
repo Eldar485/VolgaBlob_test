@@ -1,8 +1,8 @@
 import './styles/App.scss';
 import {BrowserRouter} from "react-router-dom";
-import AppRouter from "./components/AppRouter";
+import AppRouter from "./components/AppRouter.tsx";
 
-function App() {
+const App = () => {
     return (
         <div className='App'>
             <BrowserRouter>

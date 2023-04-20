@@ -1,6 +1,6 @@
-import allComments from "./pages/allComments/AllComments";
-import comment from "./pages/comment/Comment";
-import {COMMENT_ROUTE, COMMENTS_ROUTE} from "./utils/consts";
+import {COMMENT_ROUTE, COMMENTS_ROUTE} from "./utils/consts.tsx";
+import allComments from "./pages/allComments/AllComments.tsx";
+import comment from "./pages/comment/Comment.tsx";
 
 export const routes = [
     {
